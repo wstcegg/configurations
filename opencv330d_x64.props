@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(opencv)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(opencv)\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>opencv330d_x64</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>
+      opencv_calib3d330d.dll
+      opencv_core330d.dll
+      opencv_cudaarithm330d.dll
+      opencv_cudabgsegm330d.dll
+      opencv_cudacodec330d.dll
+      opencv_cudafeatures2d330d.dll
+      opencv_cudafilters330d.dll
+      opencv_cudaimgproc330d.dll
+      opencv_cudalegacy330d.dll
+      opencv_cudaobjdetect330d.dll
+      opencv_cudaoptflow330d.dll
+      opencv_cudastereo330d.dll
+      opencv_cudawarping330d.dll
+      opencv_cudev330d.dll
+      opencv_dnn330d.dll
+      opencv_features2d330d.dll
+      opencv_ffmpeg330d_64.dll
+      opencv_flann330d.dll
+      opencv_highgui330d.dll
+      opencv_imgcodecs330d.dll
+      opencv_imgproc330d.dll
+      opencv_ml330d.dll
+      opencv_objdetect330d.dll
+      opencv_photo330d.dll
+      opencv_shape330d.dll
+      opencv_stitching330d.dll
+      opencv_superres330d.dll
+      opencv_video330d.dll
+      opencv_videoio330d.dll
+      opencv_videostab330d.dll;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
